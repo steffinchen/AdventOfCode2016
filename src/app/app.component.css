@@ -1,0 +1,23 @@
+.demo-layout-transparent {
+
+  }
+
+/* Nav Bar */
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+
+  color: white; /*rgb(50, 50, 50);*/
+}
+
+.demo-layout-transparent .mdl-layout__header {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('assets/christmas-banner_2.jpg') center / cover;
+      height: 175px;
+}
+
+.mdl-layout__content {
+  padding-left: 78px;
+}
